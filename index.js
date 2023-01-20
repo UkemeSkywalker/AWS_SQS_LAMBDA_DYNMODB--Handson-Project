@@ -3,7 +3,7 @@ const aws = require('aws-sdk')
 // initialise dynamoDB client
 const dynamoDB = new aws.DynamoDB.DocumentClient({
   region: 'us-east-1',
-  apiVersion: '2012-08-10',
+  apiVersion: '2021-09-10',
 })
 
 exports.handler = async (event) => {
