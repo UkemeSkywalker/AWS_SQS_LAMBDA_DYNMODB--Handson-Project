@@ -2,7 +2,7 @@ const aws = require('aws-sdk')
 
 // initialise dynamoDB client
 const dynamoDB = new aws.DynamoDB.DocumentClient({
-  region: 'us-east-1',
+  region: 'us-east-2',
   apiVersion: '2021-09-10',
 })
 
