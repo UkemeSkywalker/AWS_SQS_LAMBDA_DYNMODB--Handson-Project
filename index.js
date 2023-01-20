@@ -20,7 +20,7 @@ exports.handler = async (event) => {
     console.log('Incoming message body from SQS :', body)
 
     const params = {
-      TableName: 'test-dynamo-table1',
+      TableName: 'demoJob1',
       Item: {
         userId: body.userId,
         name: body.name,
